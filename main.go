@@ -5,5 +5,7 @@ import (
 )
 
 func main() {
-	controllers.Quiz()
+	for i := 0; i < 10; i++ {
+		controllers.Quiz()
+	}
 }
